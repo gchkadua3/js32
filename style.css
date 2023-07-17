@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #F2F2F2;
+    min-height: 100%;
+   
+}
+
+div.container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoText h1 {
+    font-size: 27px;
+    font-weight: 900;
+   
+
+}
+
+.profile {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    width: 360px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    height: 580px;
+}
+
+.cardDetails {
+    padding: 0px 20px;
+    margin-top: 20px;
+    
+}
+
+.cardDetails p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4CD964;
+}
+
+.cardDetails h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.cardDetails p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color:  #9B9B9B;
+    margin-top: 10px;
+  }
+
+.horLine {
+    height: 1px;
+    background: #EAEAEA;
+    width: 360px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.cardDesc{
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.commentViews {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.comment, .views {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.comment p, .views p {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.cards .card:nth-child(2) {
+    background-color: black;
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 580px;
+    position: relative;
+  }
+
+.cardimage2 {
+    width: 360px;
+    max-height: 260px; 
+    border-radius: 5px;
+}
+
+.controller{
+    position: absolute;
+    color: white;
+    left: 20px;
+    top: 20px;
+}
+
+.distSecond {
+    color: white !important;
+}
+
+.card:nth-of-type(2) .cardDetails:nth-of-type(1) h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+   
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+
+
+.footerElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.footerElements p {
+    margin-right: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
